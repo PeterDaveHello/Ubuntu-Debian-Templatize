@@ -30,6 +30,7 @@ rm -rf /home/*/.ssh/*
 rm -rf /var/lib/apt/lists/*
 rm -rf /tmp/*
 rm -rf /var/tmp/*
+rm -rf /var/log/journal/*
 
 
 logrotate --force /etc/logrotate.conf
